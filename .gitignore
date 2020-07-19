@@ -1,0 +1,4 @@
+!secret.yaml
+.terraform
+ignore.*
+.vscode
