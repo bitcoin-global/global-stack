@@ -40,7 +40,7 @@ server {
     #listen [::]:80 ipv6only=on;
 
     location / {
-        return 301 https://${PUBLIC_DOMAIN}$request_uri;
+        return 301 https://${PUBLIC_DOMAIN}\$request_uri;
     }
 }
 
